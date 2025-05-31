@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v0.6.1
+
+[compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.6.0...v0.6.1)
+
 ## v0.6.0
 
 
