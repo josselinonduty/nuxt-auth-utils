@@ -297,6 +297,14 @@ export default defineNuxtModule<ModuleOptions>({
       realm: '',
       redirectURL: '',
     })
+    // Rauthy Oauth
+    runtimeConfig.oauth.rauthy = defu(runtimeConfig.oauth.rauthy, {
+      clientId: '',
+      clientSecret: '',
+      serverUrl: '',
+      serverUrlInternal: '',
+      redirectURL: '',
+    })
     // Linear OAuth
     runtimeConfig.oauth.linear = defu(runtimeConfig.oauth.linear, {
       clientId: '',
