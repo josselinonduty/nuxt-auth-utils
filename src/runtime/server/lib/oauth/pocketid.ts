@@ -54,7 +54,7 @@ export function defineOAuthPocketidEventHandler({
 }: OAuthConfig<OAuthPocketidConfig>) {
   return eventHandler(async (event: H3Event) => {
     const runtimeConfig = useRuntimeConfig(event).oauth?.pocketid
-    const baseURL = config?.baseURL
+    const baseURL = config?.baseURL || runtimeConfig?.baseURL
 
     if (!baseURL) {
       return handleMissingConfiguration(event, 'pocketid', ['baseURL'], onError)
