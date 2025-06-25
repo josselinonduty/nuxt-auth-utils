@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.5.22
+
+[compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.21...v0.5.22)
+
+### 🩹 Fixes
+
+- Fallback to runtimeConfig if baseURL is not in config ([fdde6a2](https://github.com/atinux/nuxt-auth-utils/commit/fdde6a2))
+
+### ❤️ Contributors
+
+- Josselinonduty ([@josselinonduty](http://github.com/josselinonduty))
+
 ## v0.5.21
 
 [compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.20...v0.5.21)
