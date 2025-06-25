@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.5.23
+
+[compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.22...v0.5.23)
+
+### 🩹 Fixes
+
+- Bug fixes ([85cc25e](https://github.com/atinux/nuxt-auth-utils/commit/85cc25e))
+
+### ❤️ Contributors
+
+- Josselinonduty ([@josselinonduty](http://github.com/josselinonduty))
+
 ## v0.5.22
 
 [compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.21...v0.5.22)
