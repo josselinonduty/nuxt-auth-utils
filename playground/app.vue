@@ -248,6 +248,12 @@ const providers = computed(() =>
       disabled: Boolean(user.value?.heroku),
       icon: 'i-simple-icons-heroku',
     },
+    {
+      label: user.value?.pocketid || 'PocketID',
+      to: '/auth/pocketid',
+      disabled: Boolean(user.value?.pocketid),
+      icon: 'i-simple-icons-pocketid',
+    },
   ].map(p => ({
     ...p,
     prefetch: false,

@@ -468,5 +468,13 @@ export default defineNuxtModule<ModuleOptions>({
       redirectURL: '',
       scope: '',
     })
+    // PocketID OAuth
+    runtimeConfig.oauth.pocketid = defu(runtimeConfig.oauth.pocketid, {
+      clientId: '',
+      clientSecret: '',
+      redirectURL: '',
+      baseURL: '',
+      scope: '',
+    })
   },
 })
