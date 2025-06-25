@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.5.21
+
+[compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.20...v0.5.21)
+
+### 🚀 Enhancements
+
+- Add pocketid oidc provider ([9bdb15e](https://github.com/atinux/nuxt-auth-utils/commit/9bdb15e))
+
+### 🏡 Chore
+
+- **release:** V0.5.20 ([f7127f5](https://github.com/atinux/nuxt-auth-utils/commit/f7127f5))
+
+### ❤️ Contributors
+
+- Josselinonduty ([@josselinonduty](http://github.com/josselinonduty))
+- Sébastien Chopin ([@atinux](http://github.com/atinux))
+
 ## v0.5.20
 
 [compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.19...v0.5.20)
