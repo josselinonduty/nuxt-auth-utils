@@ -61,7 +61,7 @@ export function defineOAuthPocketidEventHandler({
     }
 
     config = defu(config, runtimeConfig, {
-      authorizationURL: `${baseURL}/api/oidc/authorize`,
+      authorizationURL: `${baseURL}/authorize`,
       tokenURL: `${baseURL}/api/oidc/token`,
       authorizationParams: {},
     }) as OAuthPocketidConfig
@@ -115,7 +115,7 @@ export function defineOAuthPocketidEventHandler({
     })
 
     if (tokens.error) {
-      return handleAccessTokenErrorResponse(event, 'salesforce', tokens, onError)
+      return handleAccessTokenErrorResponse(event, 'pocketid', tokens, onError)
     }
 
     const accessToken = tokens.access_token
