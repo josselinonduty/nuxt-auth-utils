@@ -126,7 +126,7 @@ export function defineOAuthPocketidEventHandler({
     }
 
     const accessToken = tokens.access_token
-    const user = await $fetch(`${baseURL}/api/oidc/userinfo`, {
+    const user = await $fetch(`${internalURL || baseURL}/api/oidc/userinfo`, {
       headers: {
         Authorization: `Bearer ${accessToken}`,
       },
