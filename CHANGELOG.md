@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.5.24
+
+[compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.23...v0.5.24)
+
+### 🚀 Enhancements
+
+- Support internal server url ([dd7d78e](https://github.com/atinux/nuxt-auth-utils/commit/dd7d78e))
+
+### ❤️ Contributors
+
+- Josselinonduty ([@josselinonduty](http://github.com/josselinonduty))
+
 ## v0.5.23
 
 [compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.22...v0.5.23)
