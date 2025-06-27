@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.5.26
+
+[compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.25...v0.5.26)
+
+### 🩹 Fixes
+
+- Use internal url for userinfo as well ([c364070](https://github.com/atinux/nuxt-auth-utils/commit/c364070))
+
+### ❤️ Contributors
+
+- Josselinonduty ([@josselinonduty](http://github.com/josselinonduty))
+
 ## v0.5.25
 
 [compare changes](https://github.com/atinux/nuxt-auth-utils/compare/v0.5.24...v0.5.25)
