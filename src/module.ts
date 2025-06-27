@@ -474,6 +474,7 @@ export default defineNuxtModule<ModuleOptions>({
       clientSecret: '',
       redirectURL: '',
       baseURL: '',
+      internalURL: '',
       scope: '',
     })
   },

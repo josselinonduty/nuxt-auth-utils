@@ -28,6 +28,11 @@ export interface OAuthPocketidConfig {
    */
   baseURL?: string
   /**
+   * PocketId Internal URL
+   * @default baseURL
+   */
+  internalURL?: string
+  /**
    * PocketId OAuth Authorization URL
    */
   authorizationURL?: string
@@ -60,9 +65,11 @@ export function defineOAuthPocketidEventHandler({
       return handleMissingConfiguration(event, 'pocketid', ['baseURL'], onError)
     }
 
+    const internalURL = config?.internalURL || runtimeConfig?.internalURL
+
     config = defu(config, runtimeConfig, {
       authorizationURL: `${baseURL}/authorize`,
-      tokenURL: `${baseURL}/api/oidc/token`,
+      tokenURL: `${internalURL || baseURL}/api/oidc/token`,
       authorizationParams: {},
     }) as OAuthPocketidConfig
 
